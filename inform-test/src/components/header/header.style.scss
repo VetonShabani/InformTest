@@ -1,14 +1,28 @@
 .header {
+    position: relative;
     width: 100%;
-    height: 75px;
+    min-height : 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #222222;
     padding: 0 10%;
+    
+    @media (max-width: 768px) {
+        padding: 0 5%;
+    }
+    @media (max-width: 525px) {
+        padding: 0 2.5%;
+    }
+    @media (max-width: 500px) {
+        position: fixed;
+        z-index: 9999;
+    }
     .logo-wrapper {
         width: 155px;
         height: 75px;
+        display: flex;
+        align-items: center;
         .logo-img {
             width: 100%;
             height: auto;
@@ -20,6 +34,9 @@
         color: whitesmoke;
         font-weight: 600;
         letter-spacing: 1px;
+        @media (max-width: 500px) {
+            display:none
+        }
         .nav-link {
             display: flex;
             align-items: center;
@@ -35,6 +52,55 @@
             background-color: #E02623;
             cursor: pointer;
             margin-left: 10px;
+        }
+    }
+    .mobile-nav {
+        
+        transition: all 0.5s ease;
+        display: flex;
+        align-items: center;
+        padding: 0 2.5%;
+        justify-content: space-between;
+        position: absolute;
+        left: 100%;
+        top: 75px;
+        width: 100%;
+        height: 75px;
+        background-color: #222222;
+        z-index: 99999;
+        color: whitesmoke;
+        @media (min-width: 501px) {
+            display:none
+        }
+        .nav-link-sidebar {
+            width: 33.33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            height: 100%;
+        }
+        
+        .order-now-sidebar {
+            text-align: center;
+            width: 33.33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 55px;
+            padding: 10px;
+            background-color: #E02623;
+            cursor: pointer;
+        }
+    }
+    .mobile-hamburger {
+        @media (min-width: 501px) {
+            display:none
+        }
+
+        i {
+            color: whitesmoke;
+            font-size: 2.25em;
         }
     }
 }
