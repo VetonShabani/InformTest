@@ -3,7 +3,7 @@ import './order-card.style.scss';
 
 const OrderCard = () => {
     return ( 
-        <div>
+        <div className='order-card'>
 
         </div>
      );

@@ -3,7 +3,7 @@ import './pizza-menu.style.scss';
 
 const PizzaMenu = () => {
     return ( 
-        <div>
+        <div className='pizza-menu'>
             
         </div>
      );
