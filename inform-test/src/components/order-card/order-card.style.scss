@@ -1,0 +1,61 @@
+.order-card {
+    border-radius: 5px;
+    width: calc(25% - 7.5px);
+    &:first-child {
+        margin-right: 5px;
+    }
+    &:last-child {
+        margin-left: 5px;
+    }
+    &:nth-child(2) {
+        margin: 0 5px;
+    }
+    &:nth-child(3) {
+        margin: 0 5px;
+        
+    }
+    .card-img-wrapper {
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px 5px 0 0;
+    }
+    .card-info-wrapper {
+        display: flex;
+        border-radius: 0 0 5px 5px;
+        flex-direction: column;
+        align-items: center;
+        border-left: 1px solid #999999;
+        border-right: 1px solid #999999;
+        border-bottom: 1px solid #999999;
+        .card-title {
+            display: inline-block;
+            text-align: center;
+            margin: 10px 0;
+            padding-bottom: 10px;
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #006491;
+            border-bottom: 2px solid #999999;
+        }
+        .card-desc {
+            text-align: center;
+            margin: 10px 0;
+            height: 32px;
+            padding: 0 5px;
+        }
+        .order-button {
+            border: none;
+            padding: 5px 15px;
+            background-color: #017A53;
+            color: white;
+            font-weight: 450;
+            border-radius: 5px;
+            font-size: 1.25rem;
+            margin: 20px 0;
+        }
+    }
+    
+}

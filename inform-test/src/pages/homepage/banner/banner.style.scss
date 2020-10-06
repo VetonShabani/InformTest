@@ -1,0 +1,63 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-image: url('/img/Banner/banner-pizza-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .offer {
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+        width: 40%;
+        background-color: whitesmoke;
+        padding: 8px;
+        border-radius: 10px;
+        
+        .offer-wrapper {
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+            border: 4px solid gray;
+            border-radius: 10px;
+            padding: 15px;
+
+            .offer-title {
+                text-align: center;
+                font-weight: 900;
+                font-size: 2rem;
+                margin: 0px 0px 10px 0;
+                color:  #E02623;
+            }
+
+            .offer-discount {
+                text-align: center;
+                font-size: 1.25rem;
+                font-weight: 600;
+                padding: 5px;
+                border-top: 3px dotted gray;
+                border-bottom: 3px dotted gray;
+                margin-bottom: 10px;
+                color: black;
+            }
+            .offer-desc {
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 500;
+                color: #555555;
+                margin-bottom: 10px;
+            }
+            .offer-order {
+                border: none;
+                background-color: #017A53;
+                padding: 8px 15px;
+                font-size: 1.25rem;
+                font-weight: 600;
+                color: white;
+                border-radius: 10px;
+            }
+        }
+    }
+}

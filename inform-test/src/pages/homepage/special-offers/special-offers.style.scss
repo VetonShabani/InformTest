@@ -1,0 +1,26 @@
+.special-offers {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    .special-offers-title {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        font-size: 2rem;
+        color: #E02623;
+        text-decoration: underline;
+    }
+    .offer-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #555555;
+    }
+}
