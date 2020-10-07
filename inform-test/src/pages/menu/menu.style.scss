@@ -1,15 +1,14 @@
-.pizza-menu {
+.menu {
     width: 100%;
     min-height: calc(100vh - 75px);
     background-image: url('/img/Banner/menu-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    .pizza-menu-overlay{
+    .menu-overlay{
         display: block;
         width: 100%;
         min-height: calc(100vh - 75px);
-        // background-color: #d8af75;
-        background-color: rgba(#d8af75, 0.7);
+        background-color: rgba(#d8af75, 0.75);
     }
 }
