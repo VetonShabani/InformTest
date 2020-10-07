@@ -4,8 +4,8 @@ export const Pizzas = [
         type: 'TEXAS BARBECUE',
         ingredients: '100% mozzarella, barbeque sause, spicy beef, bacon, onions.',
         price: '9.99$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/texas-barbecue-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/texas-barbecue-large.png',
         tags: 'premium'
     },
     {
@@ -13,8 +13,8 @@ export const Pizzas = [
         type: 'BURGER BARBECUE',
         ingredients: 'Mozzarella, barbecue sauce, tender chicken breast, onions, fresh tomato, burger sauce.',
         price: '9.99$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/burger-barbecue-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/burger-barbecue-large.png',
         tags: 'premium'
     },
     {
@@ -22,8 +22,8 @@ export const Pizzas = [
         type: 'BURGER CLASSIC',
         ingredients: '100% Mozzarella, burger sauce, pickles, spicy beef, cheddar cheese and fresh tomato.',
         price:  '9.99$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/burger-classic-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/burger-classic-large.png',
         tags: 'premium'
     },
     {
@@ -31,8 +31,8 @@ export const Pizzas = [
         type: 'HAM & BACON CLASSIC',
         ingredients: '100% Mozzarella, tomato sauce, smoked ham, bacon, cheddar',
         price: '9,19$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/ham-bacon-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/ham-bacon-large.png',
         tags: ''
     },
     {
@@ -40,8 +40,8 @@ export const Pizzas = [
         type: 'VEGGIE PIZZA',
         ingredients: 'Tomato Sauce, Vegetable Cheese, Fresh Green Peppers, Fresh Mushrooms, Olives, Onion and Fresh Tomatoes',
         price: '8,99$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/veggie-pizza-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/veggie-pizza-large.png',
         tags: 'fasting'
     },
     {
@@ -49,8 +49,8 @@ export const Pizzas = [
         type: 'MARGARITA',
         ingredients: '100% Mozzarella, tomato sauce, extra mozzarella, oregano',
         price: '8,99$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/margarita-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/margarita-large.png',
         tags: 'vegetarian'
     },
     {
@@ -58,8 +58,8 @@ export const Pizzas = [
         type: 'CARBONARA',
         ingredients: 'Fresh cream, mozzarella, bacon, mushrooms, parmesan',
         price: '9,19$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/carbonara-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/carbonara-large.png',
         tags: 'new'
     },
     {
@@ -67,8 +67,8 @@ export const Pizzas = [
         type: 'ITALIAN PASSION',
         ingredients: 'Tomato sauce, mozzarella, pesto sauce, parmesan, fresh tomatoes, basil',
         price: '9,19$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/italian-passion-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/italian-passion-large.png',
         tags: 'vegetarian'
     },
     {
@@ -76,8 +76,8 @@ export const Pizzas = [
         type: 'CAPRICCIOSA',
         ingredients: 'Mozzarella , tomato sauce, fresh mushrooms, smoked ham',
         price: '8,99$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/capricciosa-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/capricciosa-large.png',
         tags: ''
     },
     {
@@ -85,8 +85,8 @@ export const Pizzas = [
         type: 'PEPPERONI PASSION',
         ingredients: 'Mozzarella, tomato sauce, pepperoni, extra mozzarella, extra pepperoni',
         price: '9,99$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/pepperoni-passion-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/pepperoni-passion-large.png',
         tags: 'premium'
     },
     {
@@ -94,26 +94,26 @@ export const Pizzas = [
         type: 'MACEDONIAN',
         ingredients: 'Tomato sauce, 100% mozzarella, olives, fresh green peppers, onions, fresh tomatoes, feta cheese, bacon, oregano',
         price: '9,19$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/macedonian-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/macedonian-large.png',
         tags: ''
     },
     {
         id: 12,
         type: 'AMERICAN HOT',
         ingredients: 'Tomato sauce, mozzarella, pepperoni, spicy jalapeno peppers, onions',
-        price: '',
-        mediumImg: '',
-        largeImg: '',
+        price: '10.29$',
+        mediumImg: '/img/Gallery/Pizza/medium/american-hot-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/american-hot-large.png',
         tags: 'spicy'
     },
     {
         id: 13,
         type: 'QUATTRO FORMAGGI',
         ingredients: 'Tomato sauce, 100% Mozzarella, cheddar cheese, feta cheese, parmesan cheese.',
-        price: '',
-        mediumImg: '',
-        largeImg: '',
+        price: '12,49$',
+        mediumImg: '/img/Gallery/Pizza/medium/quattro-formaggi-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/quattro-formaggi-large.png',
         tags: 'premium vegetarian'
     },
     {
@@ -121,8 +121,8 @@ export const Pizzas = [
         type: 'MEDITERRANEAN',
         ingredients: 'Tomato Sauce, Mozzarella Cheese, Tomatoes, Peppers, Olives and Feta Cheese',
         price: '8,99$',
-        mediumImg: '',
-        largeImg: '',
+        mediumImg: '/img/Gallery/Pizza/medium/mediterranean-medium.png',
+        largeImg: '/img/Gallery/Pizza/large/mediterranean-large.png',
         tags: ''
     },
 ]

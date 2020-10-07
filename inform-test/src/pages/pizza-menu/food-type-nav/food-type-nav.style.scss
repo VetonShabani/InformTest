@@ -1,0 +1,30 @@
+.food-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: rgba(111, 64 ,9 ,0.45);
+
+    .food-nav-wrapper {
+        display: flex;
+
+        .food-type-wrapper {
+            margin: 0 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .food-icon {
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .food-type {
+                font-weight: 500;
+                color: white;
+            }
+        }
+    }
+}
