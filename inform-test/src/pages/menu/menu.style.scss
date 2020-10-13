@@ -1,14 +1,24 @@
 .menu {
     width: 100%;
+    position: relative;
     min-height: calc(100vh - 75px);
     background-image: url('/img/Banner/menu-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    @media (max-width: 500px) {
+        padding-top: 75px;
+    }
     .menu-overlay{
         display: block;
         width: 100%;
         min-height: calc(100vh - 75px);
         background-color: rgba(#d8af75, 0.75);
+        position: relative;
+        @media (max-width: 590px) {
+            padding-top: 128px;
+            overflow: hidden;
+        }
     }
 }

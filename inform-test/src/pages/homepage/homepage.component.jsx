@@ -3,11 +3,12 @@ import './homepage.style.scss'
 import Banner from './banner/banner.component'
 import SpecialOffers from './special-offers/special-offers.component'
 
-const Homepage = () => {
+const Homepage = ({signIn}) => {
     return ( 
         <div className='homepage'>
             <Banner />
             <SpecialOffers />
+           
         </div>
      );
 }

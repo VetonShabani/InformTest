@@ -1,10 +1,10 @@
-import React from 'react';
-import { useState } from 'react';
+import React,{ useState } from 'react';
 import {Link} from 'react-router-dom'
+import SignIn from '../sign-in/sign-in.component';
 import './header.style.scss';
-
-const Header = () => {
+const Header = ({handleSignIn}) => {
     const [toggleNav, setToggleNav] = useState(false)
+    
     return ( 
         <div className='header'>
             <div className="logo-wrapper">
@@ -16,7 +16,7 @@ const Header = () => {
             <nav className='nav'>
                 <Link className='nav-link' to="/">HOME</Link>
                 <Link className='nav-link' to="/menu">MENU</Link>
-                <div className='order-now'>ORDER NOW!</div>
+                <div className='order-now' onClick={handleSignIn}>ORDER NOW!</div>
             </nav>
             <nav className='mobile-nav' style={toggleNav ? {left: '0'} : {left: '100%'}}>
                 <Link className='nav-link-sidebar' to="/">HOME</Link>
@@ -24,6 +24,7 @@ const Header = () => {
                 <div className='order-now-sidebar'>ORDER NOW!</div>
             </nav>
         </div>
+        
      );
 }
  

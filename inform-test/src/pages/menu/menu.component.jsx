@@ -3,7 +3,7 @@ import FoodTypeNav from './food-type-nav/food-type-nav.component';
 import './menu.style.scss';
 import PizzaMenu from './pizza-menu/pizza-menu.component';
 
-const Menu = () => {
+const Menu = ({signIn}) => {
     return ( 
         <div className='menu'>
             <div className="menu-overlay">

@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link, BrowserRouter} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from './components/header/header.component';
 import Homepage from './pages/homepage/homepage.component';
 import Menu from './pages/menu/menu.component';
 import Footer from './components/footer/footer.component';
+import SignIn from './components/sign-in/sign-in.component';
 
-function App() {
+const App = () => {
+  const [signIn, setSignIn] = useState(false);
+  const handleSignIn = () => {
+    setSignIn(!signIn)
+  }
   return (
     <div className="App">
+
       <Router>
-        <Header />
-      
+        <Header  handleSignIn={handleSignIn}/>
+        {signIn ?
+          <SignIn slideIn={'color: red'}  handleSignIn={handleSignIn}/> :  ''}
         <Switch>
-          <Route path="/" exact component={Homepage} />
-          <Route path="/menu" component={Menu}/>
+          <Route path="/" exact component={() => <Homepage />} />
+          <Route path="/menu" component={() => <Menu />} />
         </Switch>
         
         <Footer />

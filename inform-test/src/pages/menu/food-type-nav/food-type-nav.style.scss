@@ -5,6 +5,13 @@
     padding: 15px 0;
     background-color: rgba(111, 64 ,9 ,0.45);
 
+    @media (max-width:590px) {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .food-nav-wrapper {
         display: flex;
 
